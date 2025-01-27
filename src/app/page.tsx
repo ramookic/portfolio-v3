@@ -1,4 +1,9 @@
-import { BiLogoGithub, BiLogoLinkedin, BiSolidEnvelope } from "react-icons/bi";
+import {
+  BiBriefcase,
+  BiLogoGithub,
+  BiLogoLinkedin,
+  BiSolidEnvelope,
+} from "react-icons/bi";
 
 const Page = () => {
   return (
@@ -59,12 +64,24 @@ const Page = () => {
               <p>Node.js, Express, Go</p>
             </li>
             <li className="flex gap-2">
-              <p className="text-stone-400">Database:</p>
+              <p className="text-staone-400">Database:</p>
               <p>PostgreSQL, MongoDB</p>
             </li>
           </ul>
         </section>
         {/* EXPERIENCE */}
+        <section>
+          <h2 className="font-medium mb-4">Experience</h2>
+          <div className="border-l-2 border-stone-800 pl-6">
+            <p className="text-stone-400 text-sm">2023 - Present</p>
+            <h4>Web Developer - Freelance</h4>
+            <p className="text-stone-400 text-sm mt-2">
+              Built responsive and user-friendly websites ensuring compatibility
+              across various devices and browsers. Enhanced problem-solving
+              skills by troubleshooting and debugging issues efficiently.
+            </p>
+          </div>
+        </section>
         {/* EDUCATION */}
         {/* CONTACT */}
         {/* FOOTER */}
