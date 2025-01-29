@@ -13,10 +13,10 @@ const Experience = () => {
     <section>
       <h2 className="font-medium mb-4">Experience</h2>
       {data.map((el) => (
-        <div key={el.id} className="border-l-2 border-stone-800 pl-6">
-          <p className="text-stone-400 text-sm">{el.date}</p>
+        <div key={el.id} className="border-l-2 border-zinc-800 pl-6">
+          <p className="text-zinc-400 text-sm">{el.date}</p>
           <h4>{el.title}</h4>
-          <p className="text-stone-400 text-sm mt-2">{el.description}</p>
+          <p className="text-zinc-400 text-sm mt-2">{el.description}</p>
         </div>
       ))}
     </section>
